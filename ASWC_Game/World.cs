@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ASWC_Game
+{
+    public class World
+    {
+        public int MaxX { get; set; }
+        public int MaxY { get; set; }
+        
+
+        public World()
+        {
+            GetConfiguration();
+        }
+
+        public void GetConfiguration()
+        {
+            ReadConfiguration.ReadConfig();
+            MaxX = ReadConfiguration.MaxWorldSize;
+            MaxY = ReadConfiguration.MinWorldSize;
+
+            Trace.ApplicationLog(TraceEventType.Information, "The world was created with x and y values");
+        }
+
+    }
+}

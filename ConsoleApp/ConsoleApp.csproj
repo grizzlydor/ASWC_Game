@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASWC_Game\ASWC_Game.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ASWC_Game">
+      <HintPath>..\ASWC_Game\bin\Debug\net5.0\ASWC_Game.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

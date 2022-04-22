@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ASWC_Game": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Bruger\\source\\repos\\ASWC_Game",
+      "environmentVariables": {
+        "Key": "Value",
+        "ASWC_Game": "C:\\Users\\Bruger\\source\\repos\\ASWC_Game\\ASWC_Game"
+      }
+    }
+  }
+}
